@@ -22,9 +22,9 @@
 - [] [Seção 2](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463128#overview): Conceitos mais básicos do Vue: data, methods, computed, watch, event binding, event modifiers.
 - [] [Seção 3](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463258#overview): Elementos condicionais e loops.
 - [] [Seção 4](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463308#overview): Jogo para exercitar.
-- [] [Seção 7] (https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463440#overview): Workflow.
-- [] [Seção 8] (https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463492#overview): Muito importante!! Componentes.
-- [] [Seção 9] (https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526184#overview): Componentes avançado: slots, componentes dinâmicos, fragments e estrutura modular.
-- [] [Seção 13] (https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526512#overview): Router.
-- [] [Seção 15] (https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879686#overview): Vuex.
+- [] [Seção 7](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463440#overview): Workflow.
+- [] [Seção 8](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463492#overview): Muito importante!! Componentes.
+- [] [Seção 9](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526184#overview): Componentes avançado: slots, componentes dinâmicos, fragments e estrutura modular.
+- [] [Seção 13](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526512#overview): Router.
+- [] [Seção 15](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879686#overview): Vuex.
 - [] [Projeto principal](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21879870#overview)
