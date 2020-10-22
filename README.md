@@ -3,15 +3,15 @@
 ## Princípios básicos importantes
 
 - [X] [Estrutura do Programa - Javascript](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/02-estrutura-do-programa.md): Declaração de variáveis, estruturas condicionais, loops.
-- [] [Funções de ordem superior](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/05-funcoes-de-ordem-superior.md): Algumas funções importantes que são usadas no projeto e poderão vir a ser de grande utilidade.
-- [] [A vida secreta dos objetos](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/06-a-vida-secreta-dos-objetos.md): Introdução à POO com definições que ajudarão a entender a estrutura de uma página Vue.
-- [] [Módulos](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/10-modulos.md): Aprendendo a desacoplar o código, importar e exportar módulos e interfaces.
+- [X] [Funções de ordem superior](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/05-funcoes-de-ordem-superior.md): Algumas funções importantes que são usadas no projeto e poderão vir a ser de grande utilidade.
+- [X] [A vida secreta dos objetos](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/06-a-vida-secreta-dos-objetos.md): Introdução à POO com definições que ajudarão a entender a estrutura de uma página Vue.
+- [X] [Módulos](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/10-modulos.md): Aprendendo a desacoplar o código, importar e exportar módulos e interfaces.
 
 ## Princípios básicos não obrigatórios
 
-- [] [Funções](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/03-funcoes.md)
-- [] [Estruturas de dados](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/04-estruturas-de-dados.md)
-- [] [Análise prática de um pequeno projeto](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/07-pratica-vida-eletronica.md): Escopo do this abordado nesse capítulo.
+- [O] [Funções](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/03-funcoes.md)
+- [O] [Estruturas de dados](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/04-estruturas-de-dados.md)
+- [O] [Análise prática de um pequeno projeto](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/07-pratica-vida-eletronica.md): Escopo do this abordado nesse capítulo.
 
 ## Ainda sobre JS
 
@@ -19,10 +19,10 @@
 
 ## VueJS (Udemy (maryemachado1))
 
-- [] [Seção 2](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463128#overview): Conceitos mais básicos do Vue: data, methods, computed, watch, event binding, event modifiers.
-- [] [Seção 3](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463258#overview): Elementos condicionais e loops.
-- [] [Seção 4](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463308#overview): Jogo para exercitar.
-- [] [Seção 7](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463440#overview): Workflow.
+- [X] [Seção 2](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463128#overview): Conceitos mais básicos do Vue: data, methods, computed, watch, event binding, event modifiers.
+- [X] [Seção 3](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463258#overview): Elementos condicionais e loops.
+- [X] [Seção 4](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463308#overview): Jogo para exercitar.
+- [X] [Seção 7](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463440#overview): Workflow.
 - [] [Seção 8](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21463492#overview): Muito importante!! Componentes.
 - [] [Seção 9](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526184#overview): Componentes avançado: slots, componentes dinâmicos, fragments e estrutura modular.
 - [] [Seção 13](https://www.udemy.com/course/vuejs-2-the-complete-guide/learn/lecture/21526512#overview): Router.
