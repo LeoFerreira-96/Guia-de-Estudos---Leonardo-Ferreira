@@ -22,3 +22,9 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+###  Duvidas  $emit() como gerar meu proprio evento e emitir ele para o elemento PAI
+
+Rever Secao 8, ainda nao ficou claro.
