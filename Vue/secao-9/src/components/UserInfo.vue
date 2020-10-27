@@ -9,7 +9,11 @@
 </template>
 
 <script>
+import BaseBadge from './BaseBadge.vue'
 export default {
+  components: {
+    BaseBadge
+  },
   props: ['fullName', 'infoText', 'role'],
 };
 </script>
