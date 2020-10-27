@@ -9,14 +9,14 @@ export default {
     classes() {
       return {
         'badge--admin': this.type === 'admin',
-        'badge--author': this.type === 'author',
+        'badge--autor': this.type === 'autor',
       };
     },
   },
 };
 </script>
 
-<style>
+<style scoped>
 .badge {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -30,8 +30,8 @@ export default {
   color: white;
 }
 
-.badge--author {
-  background-color: #002c8a;
+.badge--autor {
+  background-color: #008a3e;
   color: white;
 }
 </style>

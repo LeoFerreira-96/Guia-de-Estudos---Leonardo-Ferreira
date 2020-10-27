@@ -1,26 +1,22 @@
 <template>
   <section>
-    <h2>Badges Disponíveis</h2>
-    <ul>
-      <li>
-        <base-badge type="admin" caption="ADMIN"></base-badge>
-      </li>
-      <li>
-        <base-badge type="autor" caption="AUTOR"></base-badge>
-      </li>
-    </ul>
+    <base-card>
+      <template v-slot:header>
+        <h2>Badges Disponíveis</h2>
+      </template>
+      <template v-slot:default>
+        <ul>
+          <li>
+            <base-badge type="admin" caption="ADMIN"></base-badge>
+          </li>
+          <li>
+            <base-badge type="autor" caption="AUTOR"></base-badge>
+          </li>
+        </ul>
+      </template>
+    </base-card>
   </section>
 </template>
-
-<script>
-import BaseBadge from './BaseBadge.vue';
-
-export default {
-  components: {
-    BaseBadge
-  }
-}
-</script>
 
 <style>
 section h2 {
