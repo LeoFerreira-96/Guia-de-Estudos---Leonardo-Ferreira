@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Select a Topic</h2>
+    <h2>Selecione um topico</h2>
     <knowledge-grid></knowledge-grid>
   </section>
 </template>

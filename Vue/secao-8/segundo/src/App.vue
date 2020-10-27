@@ -14,19 +14,19 @@ export default {
     return {
       topics: [
         {
-          id: 'basics',
-          title: 'The Basics',
-          description: 'Core Vue basics you have to know',
+          id: 'basico',
+          title: 'O básico',
+          description: 'Noções básicas do Core Vue que você precisa saber',
           fullText:
-            'Vue is a great framework and it has a couple of key concepts: Data binding, events, components and reactivity - that should tell you something!',
+            'O Vue é uma ótima estrutura e tem alguns conceitos-chave: vinculação de dados, eventos, componentes e reatividade - isso deve lhe dizer algo!',
         },
         {
           id: 'components',
-          title: 'Components',
+          title: 'Componentes',
           description:
-            'Components are a core concept for building Vue UIs and apps',
+            'Componentes são um conceito central para a construção de interfaces de usuário e aplicativos Vue',
           fullText:
-            'With components, you can split logic (and markup) into separate building blocks and then combine those building blocks (and re-use them) to build powerful user interfaces.',
+            'Com os componentes, você pode dividir a lógica (e marcação) em blocos de construção separados e, em seguida, combinar esses blocos de construção (e reutilizá-los) para construir interfaces de usuário poderosas.',
         },
       ],
       activeTopic: null,
@@ -46,10 +46,10 @@ export default {
   mounted() {
     setTimeout(() => {
       this.topics.push({
-        id: 'events',
-        title: 'Events',
-        description: 'Events are important in Vue',
-        fullText: 'Events allow you to trigger code on demand!'
+        id: 'eventos',
+        title: 'Eventos',
+        description: 'Os eventos são importantes no Vue',
+        fullText: 'Os eventos permitem que você acione o código sob demanda!'
       });
     }, 3000);
   }
