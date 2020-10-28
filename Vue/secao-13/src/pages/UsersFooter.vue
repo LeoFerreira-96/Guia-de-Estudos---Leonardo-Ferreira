@@ -1,3 +1,3 @@
 <template>
-  <h2>Users Footer</h2>
+  <h2>Usuarios Rodapé</h2>
 </template>

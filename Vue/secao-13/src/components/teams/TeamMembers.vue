@@ -9,7 +9,7 @@
         :role="member.role"
       ></user-item>
     </ul>
-    <router-link to="/teams/t2">Go to Team 2</router-link>
+    <router-link to="/teams/t2">Ir oara equipe 2</router-link>
   </section>
 </template>
 
@@ -42,14 +42,12 @@ export default {
     },
   },
   created() {
-    // this.$route.path // /teams/t1
     this.loadTeamMembers(this.teamId);
     console.log(this.$route.query);
   },
   beforeRouteUpdate(to, from, next) {
     console.log('TeamMembers Cmp beforeRouteUpdate');
     console.log(to, from);
-    // this.loadTeamMembers(to.params.teamId);
     next();
   },
   watch: {

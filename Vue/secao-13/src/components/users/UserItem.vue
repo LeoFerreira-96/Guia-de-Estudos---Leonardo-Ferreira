@@ -10,10 +10,10 @@ export default {
   props: ['name', 'role'],
   computed: {
     roleClass() {
-      if (this.role === 'Engineer') {
+      if (this.role === 'Engenheiro') {
         return 'role--engineer';
       }
-      if (this.role === 'Consultant') {
+      if (this.role === 'Consultor') {
         return 'role--consultant';
       }
       return null;

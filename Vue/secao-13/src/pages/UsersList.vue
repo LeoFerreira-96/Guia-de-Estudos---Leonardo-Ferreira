@@ -1,9 +1,11 @@
 <template>
-  <button @click="confirmInput">Confirm</button>
-  <button @click="saveChanges">Save Changes</button>
-  <ul>
-    <user-item v-for="user in users" :key="user.id" :name="user.fullName" :role="user.role"></user-item>
-  </ul>
+  <div>
+    <button @click="confirmInput">confirmar</button>
+    <button @click="saveChanges">Salvar Alterações</button>
+    <ul>
+      <user-item v-for="user in users" :key="user.id" :name="user.fullName" :role="user.role"></user-item>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -19,7 +21,6 @@ export default {
   },
   methods: {
     confirmInput() {
-      // do something
       this.$router.push('/teams');
     },
     saveChanges() {
@@ -38,7 +39,7 @@ export default {
     if (this.changesSaved) {
       next();
     } else {
-      const userWantsToLeave = confirm('Are you sure? You got unsaved changes!');
+      const userWantsToLeave = confirm('Você tem certeza? Você tem alterações não salvas!');
       next(userWantsToLeave);
     }
   },

@@ -1,6 +1,6 @@
 <template>
   <h2>
-    Page not found! Maybe view our
-    <router-link to="/teams">Teams</router-link>?
+    Página não encontrada! Veja nossas
+    <router-link to="/teams">Equipes</router-link>?
   </h2>
 </template>
