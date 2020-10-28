@@ -1,0 +1,3 @@
+<template>
+    Registre-se
+</template>
