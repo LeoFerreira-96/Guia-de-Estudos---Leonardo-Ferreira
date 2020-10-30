@@ -1,28 +1,34 @@
 <template>
-    <header>
-        <nav>
-            <h1><router-link to="/">Procure um Treinador</router-link></h1>
-            <ul>
-                <li><router-link to="/coaches">Treinadores</router-link></li>
-                <li><router-link to="/requests">Mensagens</router-link></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <h1>
+        <router-link to="/">Encontre um Treinador</router-link>
+      </h1>
+      <ul>
+        <li>
+          <router-link to="/coaches">Treinadores</router-link>
+        </li>
+        <li>
+          <router-link to="/requests">Mensagens</router-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <style scoped>
 header {
-width: 100%;
-height: 5rem;
-background-color: #02a01d;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  height: 5rem;
+  background-color: #3d008d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header a {
   text-decoration: none;
-  color: #def391;
+  color: #f391e3;
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;
@@ -31,7 +37,7 @@ header a {
 a:active,
 a:hover,
 a.router-link-active {
-  border: 1px solid #def391;
+  border: 1px solid #f391e3;
 }
 
 h1 {
